@@ -8144,11 +8144,28 @@ bd011fdddbbd4771a74700387fcc4da1ce9e6579  usr/share/cmake-3.0/Help/command/varia
 0b335e5c87bd0069e19f9535468fa37142f19076  usr/share/cmake-3.0/Help/command/variable_watch.rst
 03c6acd4d225919927a8cd63dfa537b8ac73fd3b  usr/share/cmake-3.0/Help/command/while.rst
 86994510304513520a212958fa086d4d1f8cc3a4  usr/share/cmake-3.0/Help/command/write_file.rst
+4fc7dfda66b4f6fce8197c894a78b8d1195d94ea  usr/share/cmake-3.0/Help/generator/Borland Makefiles.rst
 4f8dda9751bedbaed35208ccb224b87017d70699  usr/share/cmake-3.0/Help/generator/CodeBlocks.rst
 9d654920b7142ea8fa5531d64041138cb5024ab5  usr/share/cmake-3.0/Help/generator/CodeLite.rst
+5c6434530ccadb5828b71f61c3c233cc6ea336ae  usr/share/cmake-3.0/Help/generator/Eclipse CDT4.rst
 45748fa34cbb862190aa5f4c8089c3a8d39717ae  usr/share/cmake-3.0/Help/generator/Kate.rst
 af2e407935e73cadc8a5ed74e9a8d863e985eac7  usr/share/cmake-3.0/Help/generator/KDevelop3.rst
+f6b7b442587544457683aa1d72b7226d8bfae467  usr/share/cmake-3.0/Help/generator/MinGW Makefiles.rst
+bc70c426bb36640a5e0cedbac33bf3d5ec19a6c7  usr/share/cmake-3.0/Help/generator/MSYS Makefiles.rst
 207022629b124d855e0cc793fdca38b6a01f19df  usr/share/cmake-3.0/Help/generator/Ninja.rst
+2bc42720da0f23cbe0381adaae348f1dc97c5c5b  usr/share/cmake-3.0/Help/generator/NMake Makefiles JOM.rst
+c4e93d980cbd09149fce356084106040eed0f0c3  usr/share/cmake-3.0/Help/generator/NMake Makefiles.rst
+010848343bfe25593a9aaa7c3f1accfe9127e0ee  usr/share/cmake-3.0/Help/generator/Sublime Text 2.rst
+0818f16cc8d7e274751ef3c063e075201d510d93  usr/share/cmake-3.0/Help/generator/Unix Makefiles.rst
+a5343853d7f732146fccb0d8974b4daacf1dd042  usr/share/cmake-3.0/Help/generator/Visual Studio 10 2010.rst
+80fa715b90408eed445ebd543a0d2d1250140dd0  usr/share/cmake-3.0/Help/generator/Visual Studio 11 2012.rst
+3dc04427efa8f8575069eb89caa9e7e98ff65b21  usr/share/cmake-3.0/Help/generator/Visual Studio 12 2013.rst
+1c5628a2e79723a327ced2e3d4cd0a2f985d62cd  usr/share/cmake-3.0/Help/generator/Visual Studio 6.rst
+f13f691923dffe7d3da8acff02428bab9158275c  usr/share/cmake-3.0/Help/generator/Visual Studio 7 .NET 2003.rst
+9fcfad5e4fc98bbc40a2054fb10c55791072a55f  usr/share/cmake-3.0/Help/generator/Visual Studio 7.rst
+d5675ce4cfcee36f8ba53e5ff13b0fe3c15f0c89  usr/share/cmake-3.0/Help/generator/Visual Studio 8 2005.rst
+d6d70172d54757eb6146c2186c4f99bfdb372faa  usr/share/cmake-3.0/Help/generator/Visual Studio 9 2008.rst
+1d5cb2c1370064f6fcb1c61d418441ac2cb41949  usr/share/cmake-3.0/Help/generator/Watcom WMake.rst
 4c5ee1c4faff7ce05a0f1d77859aff5f90be5b9c  usr/share/cmake-3.0/Help/generator/Xcode.rst
 b0f4681acae94146575f90ad6d329594c83d541e  usr/share/cmake-3.0/Help/include/COMPILE_DEFINITIONS_DISCLAIMER.txt
 a11726d2085d74e57215eb4a60cd1f9f73d99e5c  usr/share/cmake-3.0/Help/index.rst
