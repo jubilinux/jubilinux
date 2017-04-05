@@ -194,11 +194,11 @@ ef9001097edbfd3605f8da4845be93cf77a00659  etc/fw_env.config
 37be61f791e145d69bba57a2c402268f4de6db69  etc/gai.conf
 d50a34b91965e368fc761e65d7e7135de3be40d6  etc/groff/man.local
 b7c7b41319b143e134fc97b36658751cc3396362  etc/groff/mdoc.local
-8399c15871a79e315f3cca7e531aa86e4c5d12c3  etc/group
-5829b2b5858050852564c53906de28c39fc32efa  etc/group-
+0b0c46c57b6456dec3387a58f3182abcdb341189  etc/group
+8399c15871a79e315f3cca7e531aa86e4c5d12c3  etc/group-
 8399c15871a79e315f3cca7e531aa86e4c5d12c3  etc/group.org
-b9ff150990eed87e3840b5ba772597d0d8e24bde  etc/gshadow
-312146b0fff0ece87280cc820847df03be417191  etc/gshadow-
+c24dbdae903e2ba81be95a88046101c0c2ce0964  etc/gshadow
+b9ff150990eed87e3840b5ba772597d0d8e24bde  etc/gshadow-
 3b1424af4b8051cec60ba53ec77211d4de62800c  etc/gss/mech.d/README
 a3efe9b1ace55b17fab76c59258ac51f257de1ed  etc/hostapd/hostapd.conf
 1737147bfce73c1b887d2fbac7b513941fda9530  etc/hostapd/ifupdown.sh
@@ -250,6 +250,7 @@ b413a55413caec83b8171ab2d952ce2477d53628  etc/init.d/rsyslog
 ed877479e06e8e857dd66c3d1ad17ba0a3fd9656  etc/init.d/single
 742086770366a26765b0bab1a5bd26f37e5542ad  etc/init.d/skeleton
 7f5c415fc8d164fea6a75cd91ba57aff6cd5e05b  etc/init.d/ssh
+b5ca73e0fef84a5aa8f0155f160952c4385045b8  etc/init.d/sudo
 28a03e0619ffc6d88a9bd1ebfa352ed413a15113  etc/init.d/udev
 f54c7e96e1288fe7a31d5cb2e0907198e32e522b  etc/init.d/udev-finish
 fb9afd74f8034ea6c3b72df0e6e16fcce1e70d94  etc/init.d/udhcpd
@@ -347,6 +348,7 @@ a7a73b5ddcb02358a988de56376822cd7d8c8f17  etc/pam.d/passwd
 ba76bbb7fd56968bb1bd438758c0ec3570b36c5e  etc/pam.d/runuser-l
 6d8ec2add4e0ec90dd88c132f67b3d0b6e8cee52  etc/pam.d/sshd
 4528698605616fee721d7ef1f28e933b1ac58828  etc/pam.d/su
+24eca8af0fa60fe1c1f5b278d6e136f82aa17207  etc/pam.d/sudo
 3ca6447158721a38b2008f1697ddb179a0e73bd4  etc/pam.d/systemd-user
 66fa11e0356cf2f5c14f8820eb164dac498618ca  etc/passwd
 fbc6235a36a4f1b0f9957fefaa4bee82088c5e72  etc/passwd-
@@ -410,6 +412,8 @@ de4084a8f50f78279618bc5b4522b8c87205fb56  etc/ssl/certs/ca-certificates.crt
 7e36ba0fdd3b1f5b267821d4b06a1f8c17336efb  etc/staff-group-for-usr-local
 da39a3ee5e6b4b0d3255bfef95601890afd80709  etc/subgid
 da39a3ee5e6b4b0d3255bfef95601890afd80709  etc/subuid
+55e70f2f072849287abf2cece188e78c17e29514  etc/sudoers
+4bd63e1e24faa047649891d9db6ebce3ba8ff988  etc/sudoers.d/README
 86637cb9a41a6798c6395341770dc5946ef4f9fd  etc/sysctl.conf
 2cb5e2a3a25d941900e73fa5f24ab1985dc3ec4e  etc/sysctl.d/README.sysctl
 03707c92cc0330c8cbbb4accda16d0ff339e6be1  etc/systemd/bootchart.conf
@@ -1053,6 +1057,7 @@ fd4aceb640b84af4adbd44b3a374d6404c05cd4e  lib/systemd/system/sound.target
 98af6d0ec44be580e90bef24c6b6077488635cee  lib/systemd/system/ssh.service
 0adcf0ee04dd9bf3b5801180938e33e45248156b  lib/systemd/system/ssh@.service
 d842a39b93b8f74617161cff4f41f0f52f871adc  lib/systemd/system/ssh.socket
+999034e8bee88e48c6dec7f52ab3ef66aef34a73  lib/systemd/system/sudo.service
 7cda5139a12607353048abe8fb2af0a7d4cd5517  lib/systemd/system/suspend.target
 a74f4c5a897760d253deb2e081de9483a81ad46a  lib/systemd/system/swap.target
 c2a559a73c27a45802a02e03b17154900a3c5cb3  lib/systemd/system/sys-fs-fuse-connections.mount
@@ -1343,7 +1348,7 @@ b0735a5e887cc98f35251afefecffc181e1a803d  lib/xtables/libxt_TRACE.so
 51ca7a9a6513c16f976cb0f3ff47aa2c85441638  opt/edison/launcher.sh
 418afa044efd66caa52b02cd13cb68be45420443  opt/edison/sketch_reset
 2c0a4292f3dbf702dc88101a8557a40ea6146f4a  opt/edison/sketch_reset.sh
-5b2d0f249364bf39a1b694014a36bc4f1dd52702  root/.bash_history
+0a0dd60c74471d551bba27dc7ffa412dd9426cd8  root/.bash_history
 b737c392222ddac2271cc8d0d8cc0308d08cf458  root/.bashrc
 f05a29a9a7de6f1dca113ab038e4c8b16328aaef  root/kernel.config
 af363593dbf4a22d03e6872985895e9589e0da2d  root/.profile
@@ -1824,6 +1829,8 @@ b8db6aef7760289a74fa9b94a232795b50cfb693  usr/bin/ssh-keygen
 c44aed529c5318bdc1dcbbd52af3784cb56c0dd3  usr/bin/stdbuf
 4bbe56bd1e01ad85dc7491d111f2e3e475b64fc3  usr/bin/strings
 d78dc866a9b00d6a0286dcd78c2f7eb77a9c97d5  usr/bin/strip
+35f62578382379fd2b9d087b8ab7f969642c4507  usr/bin/sudo
+85ba90a012ede0ecc87e241a07cdbbe97cb4b5bd  usr/bin/sudoreplay
 0d9799823a350746b2dd585f05f4bfc31fb1d8d2  usr/bin/sum
 bfaf0b4da85f6ddc975ba06b67f6b8182115964e  usr/bin/sx
 1b3268a44f5a28a6ebbbc6e730bc81acd400a4f5  usr/bin/systemd-analyze
@@ -4129,6 +4136,7 @@ a2b0c6bad026e95ffb95ade71071b4bca031f08d  usr/include/shadow.h
 c127050abdf1ac42784b01ce4d7c14406404b6a8  usr/include/string.h
 a24a0bb567f430e18ffec835ff855fefb03561cb  usr/include/strings.h
 9f04126e42b3f181f25e62a2486fab64517b9824  usr/include/stropts.h
+cf0ac57c7949f54858174f829a5f773ee0d5cd3a  usr/include/sudo_plugin.h
 acebb88f4c66ea82408142d07aab9fb0dbaa961b  usr/include/syscall.h
 95a078736f4152a520f59bb98a83ac975c82d7ef  usr/include/sysexits.h
 ea0630b1631639e8aa1d1a448363a5f7e7e10eab  usr/include/syslog.h
@@ -6755,6 +6763,11 @@ debb1d58b936be53e4de00fcca51453964a2e7cb  usr/lib/ssl/misc/c_hash
 0cc791b7dc5957bf43b4cfcb5e689dea8d83b1ae  usr/lib/ssl/misc/c_issuer
 76adfc186ff506274fa80660079daca8e52bb0bc  usr/lib/ssl/misc/c_name
 db05155818b1827f3e7133ac67326d87cb7ddd2e  usr/lib/ssl/misc/tsget
+654c631c4a29b02d5654117e2d583c00b5b3323c  usr/lib/sudo/group_file.so
+d1f50092bcaf0b49d000b369265d29a2055f917d  usr/lib/sudo/sesh
+cf79e31965a31ca33cb9b9c167538e02f4337921  usr/lib/sudo/sudoers.so
+102caef1d4fd45758713bcce37976a4d3d612699  usr/lib/sudo/sudo_noexec.so
+62c01c5d3186f610a3c7491b6706108ebd3a8938  usr/lib/sudo/system_group.so
 2b9711188feb81d0dbb7d465fab0dcb8e0652b6b  usr/lib/systemd/catalog/systemd.catalog
 dbf376f06ec2e97895241b22a2ca5e62db8e7a48  usr/lib/systemd/catalog/systemd.fr.catalog
 013b7a77301ce0866a5fb13dba6f34590629990a  usr/lib/systemd/catalog/systemd.it.catalog
@@ -7698,6 +7711,7 @@ f4f8e6d469a5ce5932aaea72a944ee59b4e7fb05  usr/sbin/useradd
 61f8e21510916a7adcc9a0e6e3b147ff320ad722  usr/sbin/usermod
 ef6ac49a5a8c20c1191537068cfbbbce60cf5a3e  usr/sbin/validlocale
 ab1f884ec59556e64d73a6e6ed8b14e3d749cc5a  usr/sbin/vipw
+4d73e4d6981236065197ef60e5f97a427ff127f0  usr/sbin/visudo
 6566abcd5df24c88a81f367430773b141dd4894b  usr/sbin/vpddecode
 f6b0f36a789a440a1c95ef7a34c64a899cc4f676  usr/sbin/zic
 dd0329c61ee44a25f37ebd1a002cf15caffb7b10  usr/share/aclocal-1.14/amversion.m4
@@ -12170,6 +12184,22 @@ cce3e56f4cc6aacec140c929fb3ff94dc2932c7b  usr/share/doc/shared-mime-info/shared-
 471575b281cab3d9286505d6c32001b9aa864937  usr/share/doc/shared-mime-info/shared-mime-info-spec.xml.gz
 673ada337e24a5377ac56b464c12492b28892907  usr/share/doc/startpar/changelog.Debian.gz
 4b03b918ec87a9b2925bd6b5f8bb5936e7a0add4  usr/share/doc/startpar/copyright
+3ce7484755fb866d9ef7c8b54c7aa30486b71567  usr/share/doc/sudo/changelog.Debian.gz
+0ba2443d6b102b64d7d3a7ed571288d8d8394cd7  usr/share/doc/sudo/changelog.gz
+89b18ca78b08a59fb464f4fab7eb1b6d800411cc  usr/share/doc/sudo/CONTRIBUTORS
+cf3025dc2ba5c4f755c1d795381e98c14dc23d86  usr/share/doc/sudo/copyright
+677d98e553d48da8216c3f48e4658e814b8dd931  usr/share/doc/sudo/examples/sample.pam
+62be9703e186e98c48a4cf38e78fd29c1ca97260  usr/share/doc/sudo/examples/sample.sudo.conf
+43419b67ac4bc8cf53b197cfa624e7d5b51d18ad  usr/share/doc/sudo/examples/sample.sudoers.gz
+55029683d228f56e160c1aac3716a066866fbf44  usr/share/doc/sudo/examples/sample.syslog.conf
+418edb46e48d0702da287421350171d193463d68  usr/share/doc/sudo/HISTORY
+8c456a70270e9aa4c8ed51888341ef0c0cb5f243  usr/share/doc/sudo/NEWS.Debian.gz
+cacd59226cd822c498ad8dd7da608a742cc9fa09  usr/share/doc/sudo/NEWS.gz
+dbae9a2721c5d3da2ad6c3db1837eeb24cf50aae  usr/share/doc/sudo/OPTIONS
+5125c2ad253c8934f47d3221a55f80660d66285d  usr/share/doc/sudo/README
+0cb139ded4c6403759543a88b6ad6aa5cbcc2512  usr/share/doc/sudo/README.Debian
+e1c7ec0617207af72a1b8e471dc519c877e50d51  usr/share/doc/sudo/TROUBLESHOOTING.gz
+6bb550d0cbe7790a7b2a02626afaf1d2731aa4cd  usr/share/doc/sudo/UPGRADE.gz
 d128854f6a228e7b9e7a73a11daa28fb22b099e8  usr/share/doc/systemd/changelog.Debian.gz
 9c0f50f134e1539793fad3acfd9947425a28602f  usr/share/doc/systemd/copyright
 6065690a9b4f551be30ad6f67ed117bfc271cc9b  usr/share/doc/systemd/DIFFERENCES
@@ -13270,6 +13300,7 @@ e06c3d7f217bd4b91f82b55936cac0ab04cd88fb  usr/share/lintian/overrides/procps
 f6049a78310f5247fa7fba7fbc0f379ac37554dd  usr/share/lintian/overrides/rsync
 a0b78b4af9b496eff107acd9ede01f86ade3159a  usr/share/lintian/overrides/rsyslog
 35cbfa3323f3b51bb999c1aaff0364d42178ae8e  usr/share/lintian/overrides/screen
+43a6c088ac386038958b791b8d0a4c56aef6425d  usr/share/lintian/overrides/sudo
 41e0652530336e107c900db1321c3217b6602f88  usr/share/lintian/overrides/sysv-rc
 230b8eef451a230cd18d9c27dbeb74497eadd01e  usr/share/lintian/overrides/util-linux
 4f08857e5e203f0b49b0c69a89cbc33d854d6802  usr/share/lintian/overrides/vim
@@ -13421,6 +13452,7 @@ c257df944fff3e4eda372750443bfcca9daedbb2  usr/share/locale/ca/LC_MESSAGES/newt.m
 f8aa2335f087a10869a25a5519f58a4a8f2f590c  usr/share/locale/ca/LC_MESSAGES/sed.mo
 bc7539eb19838677e7ce49124758ca09ae6b0d1d  usr/share/locale/ca/LC_MESSAGES/shadow.mo
 e8052e2d769f40bb942f8460b52d4f041c23956a  usr/share/locale/ca/LC_MESSAGES/shared-mime-info.mo
+ab6bdfb301b0cd2871153c0305d74163dc93a9c6  usr/share/locale/ca/LC_MESSAGES/sudo.mo
 6c1b664308058c996d6dd1282370944f538dc3bc  usr/share/locale/ca/LC_MESSAGES/tar.mo
 057518a9b0e33815ffd370ddabeccb7923a78d31  usr/share/locale/ca/LC_MESSAGES/tasksel.mo
 358c3c86a2226de56f4b439f3a3eca3bc7658559  usr/share/locale/ca/LC_MESSAGES/wget.mo
@@ -13465,6 +13497,8 @@ bd401d1ce34a5c51c540d78cde547bf2c55a0f03  usr/share/locale/cs/LC_MESSAGES/psmisc
 f74ab9f063c7afc38d2340c9e33c1a246135e2b8  usr/share/locale/cs/LC_MESSAGES/sed.mo
 0dc927e3cc8a6dd009261de276d2c655fccee7cd  usr/share/locale/cs/LC_MESSAGES/shadow.mo
 f08a8525233be0a11ca662d98bb2b15ca5f3bb1d  usr/share/locale/cs/LC_MESSAGES/shared-mime-info.mo
+9a0c8edcbd8e862502eb4b414df3db94848d506c  usr/share/locale/cs/LC_MESSAGES/sudoers.mo
+4e912f9f7b6bd6e7747ffcda1881a912fed06577  usr/share/locale/cs/LC_MESSAGES/sudo.mo
 cb6aacad1576d2cfca78b281351a97eb55cfdf6d  usr/share/locale/cs/LC_MESSAGES/tar.mo
 7b0445f7c10d6d77f5c0b7b79ade005f41f005da  usr/share/locale/cs/LC_MESSAGES/tasksel.mo
 fd5cafb3c8f00da1779f29c8247338be5cf20f02  usr/share/locale/cs/LC_MESSAGES/wget.mo
@@ -13518,6 +13552,8 @@ a0a6ee797509a69e91ae06f82ad8e786a1a17b2e  usr/share/locale/da/LC_MESSAGES/psmisc
 438e7310e7d509afde0ccfd235a7c91c917a1551  usr/share/locale/da/LC_MESSAGES/sed.mo
 2719cf965c18e5a465e83b83a1d2d37b027225b7  usr/share/locale/da/LC_MESSAGES/shadow.mo
 e6beeb6682abbdf12af240b86f45f51e3805f235  usr/share/locale/da/LC_MESSAGES/shared-mime-info.mo
+d71b5bd1762404edd21aa5a5d2297affdc3e844d  usr/share/locale/da/LC_MESSAGES/sudoers.mo
+27d3dca2c21013be74f18e76a88ea351a594210b  usr/share/locale/da/LC_MESSAGES/sudo.mo
 0afa5b4de93db704e056599bd81057dfde0c068d  usr/share/locale/da/LC_MESSAGES/tar.mo
 a09eabb880ca5e52b9504d4257449cea463a88c5  usr/share/locale/da/LC_MESSAGES/tasksel.mo
 7ae86186beab9aaee4702ae297ce73a3463c4128  usr/share/locale/da/LC_MESSAGES/wget.mo
@@ -13566,6 +13602,8 @@ a985f341969de59c55928fb3194a822852434a14  usr/share/locale/de/LC_MESSAGES/popt.m
 d1ce4b15e77d19f2c2698bf4a84dc1cd551b9b81  usr/share/locale/de/LC_MESSAGES/sed.mo
 cf4a3fe562f5d13290acdfa1bd943589c4b64ad6  usr/share/locale/de/LC_MESSAGES/shadow.mo
 85c60e26174be1768b836b2c168175bb1099966c  usr/share/locale/de/LC_MESSAGES/shared-mime-info.mo
+42c3b7a33999b6da429a9c88376bf7391ca7a9c4  usr/share/locale/de/LC_MESSAGES/sudoers.mo
+57306e43d5a4d0a66c01a6f04e09e6ca9e68b1e2  usr/share/locale/de/LC_MESSAGES/sudo.mo
 1961d0a604847e039e926cb1acbd0d4d4d70782f  usr/share/locale/de/LC_MESSAGES/systemd.mo
 a9ce3addf49bdc6340cc978fd7379a4aab0c69ee  usr/share/locale/de/LC_MESSAGES/tar.mo
 e60d7426b56a1dfc7a200732467c353420dbef83  usr/share/locale/de/LC_MESSAGES/tasksel.mo
@@ -13659,6 +13697,8 @@ f07364e6ceb250f8b51994528f50ef9fee6c5cfc  usr/share/locale/eo/LC_MESSAGES/popt.m
 6b99aae8148f929fa39b20dcfe03e51dd17cb877  usr/share/locale/eo/LC_MESSAGES/psmisc.mo
 ecfafca7c1c8edf7a04378033c4886f9c2b2f70f  usr/share/locale/eo/LC_MESSAGES/sed.mo
 a6d1f676b137e517e190a9ef63f5ff309d07b424  usr/share/locale/eo/LC_MESSAGES/shared-mime-info.mo
+6ef9be79691d7ab2daadaab18df1df8f975e1065  usr/share/locale/eo/LC_MESSAGES/sudoers.mo
+069162878da8609f9993d9f4b1f142b7fba95355  usr/share/locale/eo/LC_MESSAGES/sudo.mo
 d4f5d7ce1fa31d3a0373c4c3a6ff79e29d7ad7f9  usr/share/locale/eo/LC_MESSAGES/tar.mo
 e90708bf4e4e37fd43b87ca098b69a52d64ed361  usr/share/locale/eo/LC_MESSAGES/tasksel.mo
 c9fb5f436c145d4eab59231ce6a0d9513acb90c0  usr/share/locale/eo/LC_MESSAGES/wget.mo
@@ -13703,6 +13743,7 @@ dc90b15075293c2aec98530dd4d4975d840b2edc  usr/share/locale/es/LC_MESSAGES/nano.m
 b5041413b101250e5237c827eaee4a890836f0da  usr/share/locale/es/LC_MESSAGES/sed.mo
 a88ef67c6c0cd23fe829d89b4d5db5e0375a1708  usr/share/locale/es/LC_MESSAGES/shadow.mo
 73825103ad9e8dd49703a2310ceb257d3202b18a  usr/share/locale/es/LC_MESSAGES/shared-mime-info.mo
+688fe501885e5d2cb89355e7b29a1b2273dbcd34  usr/share/locale/es/LC_MESSAGES/sudo.mo
 344ec968a098be40d792562b7dc01179620da1b4  usr/share/locale/es/LC_MESSAGES/tar.mo
 9674268208fd8382b1079cea216519349ab1ff34  usr/share/locale/es/LC_MESSAGES/tasksel.mo
 c1cbe4bb0173555120d24aefb236a5775d1fec52  usr/share/locale/es/LC_MESSAGES/wget.mo
@@ -13746,6 +13787,8 @@ b5a521a90da52960316d303dca6e0ff1917c17f0  usr/share/locale/eu/LC_MESSAGES/psmisc
 020204faf540bd7540e3da7984f1d9d5658eaa57  usr/share/locale/eu/LC_MESSAGES/sed.mo
 bc407f226aa483a810815edd43b4df4e5c4b39ff  usr/share/locale/eu/LC_MESSAGES/shadow.mo
 22f305d398ad2c3f3336f9e6de5de61f3fe6f922  usr/share/locale/eu/LC_MESSAGES/shared-mime-info.mo
+6ca5ee0e60b30ebb75ec1515700b14efe9af05d9  usr/share/locale/eu/LC_MESSAGES/sudoers.mo
+97d3e647be4f3148c9752d4cce48e950cc44d943  usr/share/locale/eu/LC_MESSAGES/sudo.mo
 61edc5ef9d738746371325bbc142bfa7cee505a8  usr/share/locale/eu/LC_MESSAGES/tar.mo
 54263272961d82a26a6ce4b902c37f754866cea6  usr/share/locale/eu/LC_MESSAGES/tasksel.mo
 272e69d7b705b98c518f801aad5a27d62c70d21c  usr/share/locale/eu/LC_MESSAGES/wget.mo
@@ -13796,6 +13839,8 @@ f080764aac51fa71d806d265c27463de2c0f1b40  usr/share/locale/fi/LC_MESSAGES/popt.m
 b5d558b9110a9b3d5ccb5507912558a4a4dfdb6e  usr/share/locale/fi/LC_MESSAGES/sed.mo
 ecc5f71c7ce1a492f703cc8b9b6571426aa90aff  usr/share/locale/fi/LC_MESSAGES/shadow.mo
 e6b72a5a1c0c6b01ce6dd2e40c2e4393db935041  usr/share/locale/fi/LC_MESSAGES/shared-mime-info.mo
+b9b5fb1e0237c0e582daa24a18ac849a3fbfe586  usr/share/locale/fi/LC_MESSAGES/sudoers.mo
+d8af0660ae3c3508a5828f3ef6f2f659c99eb33a  usr/share/locale/fi/LC_MESSAGES/sudo.mo
 0950aec76219dd72a13a91d48f21cee172a153b2  usr/share/locale/fi/LC_MESSAGES/tar.mo
 685fa2e21083aaf16be95283332a6a2d3682bba2  usr/share/locale/fi/LC_MESSAGES/tasksel.mo
 cadb429500c4c53e78e74e84e57470c3b2aed11d  usr/share/locale/fi/LC_MESSAGES/wget.mo
@@ -13848,6 +13893,7 @@ e34a92d5d5cd6c7646a4532db9c85edf5cb56c40  usr/share/locale/fr/LC_MESSAGES/opcode
 63e5f6ee7fcc3a387f545b8a3d5e09badb8c6a31  usr/share/locale/fr/LC_MESSAGES/sed.mo
 6edca6388663a73c5238b1d83782dfcd3d8a1c68  usr/share/locale/fr/LC_MESSAGES/shadow.mo
 62fc51836098b4830755a1353e14b3368ad834ea  usr/share/locale/fr/LC_MESSAGES/shared-mime-info.mo
+6c1513ef4d97a8dc9a57e37c91bf2e19c1a5081a  usr/share/locale/fr/LC_MESSAGES/sudo.mo
 414f6b5d585f02fc22d6cfc892309ce83c03b407  usr/share/locale/fr/LC_MESSAGES/systemd.mo
 2777f911f5f723daef467ed726a26ff297f5fffd  usr/share/locale/fr/LC_MESSAGES/tar.mo
 81845771fccc6a14ec3a031c9e9ae50c4e30dddc  usr/share/locale/fr/LC_MESSAGES/tasksel.mo
@@ -13904,6 +13950,7 @@ fafd94a4fbb7793f803e5656d1833548c4e1ae14  usr/share/locale/gl/LC_MESSAGES/newt.m
 f381d1101e5163edfc040954c0a52f65a247ec7f  usr/share/locale/gl/LC_MESSAGES/sed.mo
 d899af9b9e808714e91292ffff3da673a5d87c00  usr/share/locale/gl/LC_MESSAGES/shadow.mo
 3c202b3c8c26236c3427c804952747689fb7ddda  usr/share/locale/gl/LC_MESSAGES/shared-mime-info.mo
+9e3b575dfa9a02df4d56f68ef18d243bcdc3fcc3  usr/share/locale/gl/LC_MESSAGES/sudo.mo
 99c29482250a80020f90a3eee7c19f811be2229e  usr/share/locale/gl/LC_MESSAGES/tar.mo
 4336b6f083e4f3f970ec243b5e1b9be92f509782  usr/share/locale/gl/LC_MESSAGES/tasksel.mo
 b9244b23a847699fb04aba07078c12993a6c8ebe  usr/share/locale/gl/LC_MESSAGES/wget.mo
@@ -13952,6 +13999,8 @@ b8fe974d339827535e2d9cf2479696028a1539d4  usr/share/locale/hr/LC_MESSAGES/libcwi
 099b0386cf53e05b6c4dc1cbcede5ffc8ce92dd5  usr/share/locale/hr/LC_MESSAGES/psmisc.mo
 4bb3487d85fabb3a733d62b20a3e1310d9b43be0  usr/share/locale/hr/LC_MESSAGES/sed.mo
 bccca76313140df04e4623108a2bf972b1d658e9  usr/share/locale/hr/LC_MESSAGES/shared-mime-info.mo
+87e1204f0a751c4b7486ce5e878bdcb082acd019  usr/share/locale/hr/LC_MESSAGES/sudoers.mo
+4fbd63bf2f33c02aa033903690bd9d99e2e50484  usr/share/locale/hr/LC_MESSAGES/sudo.mo
 d6b1f5b3391865fb3ed1f832470790104b8289f5  usr/share/locale/hr/LC_MESSAGES/tar.mo
 d5f80bf228d71655d60df988432085d0463c4de2  usr/share/locale/hr/LC_MESSAGES/tasksel.mo
 4f4c10e963c10e4ab467895cbac18cc55fb3c71a  usr/share/locale/hr/LC_MESSAGES/wget.mo
@@ -14083,6 +14132,8 @@ c4ee3d536820729b250ed2ed6c66cc4addb4c95e  usr/share/locale/it/LC_MESSAGES/psmisc
 e6df1696eadfbc13c44bc1166c7002de0fc556c3  usr/share/locale/it/LC_MESSAGES/sed.mo
 30172a5dc634cc32eef9dba08ef69721713645a0  usr/share/locale/it/LC_MESSAGES/shadow.mo
 5220a1c7d583cd3c3653f1fe7ace6d0234f5ecb2  usr/share/locale/it/LC_MESSAGES/shared-mime-info.mo
+8f1bdcb2e0ed14adb08aff404be15f5c4dddec2f  usr/share/locale/it/LC_MESSAGES/sudoers.mo
+b092a08a09071e80efc2360f9caa1b2ff92c8457  usr/share/locale/it/LC_MESSAGES/sudo.mo
 0a77ad2661698aa111db4a4d4d3138a2a1c3416a  usr/share/locale/it/LC_MESSAGES/systemd.mo
 517452c65fab84b425cb4b8ba7a79a456caef07c  usr/share/locale/it/LC_MESSAGES/tar.mo
 c03939ad7b9fd40024efa9e520c585673d318e62  usr/share/locale/it/LC_MESSAGES/tasksel.mo
@@ -14127,6 +14178,8 @@ c0a2083c0e56a76949900398ec33686786df54c0  usr/share/locale/ja/LC_MESSAGES/net-to
 2f4d205d2da627e991de47a84bc000add08fbecd  usr/share/locale/ja/LC_MESSAGES/sed.mo
 14e8756eff979c85e8590973dd5702bde95d2559  usr/share/locale/ja/LC_MESSAGES/shadow.mo
 cbf267fd563237b13076137f6f89c7d7002fd85e  usr/share/locale/ja/LC_MESSAGES/shared-mime-info.mo
+b7ba04b565ddaa9637faf1dca83e3198aeaadff5  usr/share/locale/ja/LC_MESSAGES/sudoers.mo
+a27c9fad333dc6abe1f6bb7697f1b449314ccbe0  usr/share/locale/ja/LC_MESSAGES/sudo.mo
 5f3642b7465490f5bebb34594cb80e0cca5b8601  usr/share/locale/ja/LC_MESSAGES/tar.mo
 bff34fd62366d382b8a4762916cb4c853765dd91  usr/share/locale/ja/LC_MESSAGES/tasksel.mo
 6439fa375f28dfc133ff8b59cbfa9d53d70d66d2  usr/share/locale/ja/LC_MESSAGES/wget.mo
@@ -14218,6 +14271,7 @@ db2446d92193172492b2c2bceeafd071f34ee046  usr/share/locale/lt/LC_MESSAGES/Linux-
 a3d9c27d5d39608ca040b7e70dd9d371f92a528e  usr/share/locale/lt/LC_MESSAGES/make.mo
 5b1d404d19ad2e8596b398c5902a2b5f50112faf  usr/share/locale/lt/LC_MESSAGES/newt.mo
 ec72432a79ca1b367ebd351be8d0c36ba2758439  usr/share/locale/lt/LC_MESSAGES/shared-mime-info.mo
+2ce083f3dcd3e35853f8be0d17265073b66e49a7  usr/share/locale/lt/LC_MESSAGES/sudoers.mo
 9c06c7c0e5bfc83fad6256325dfa9a1ed9a392bd  usr/share/locale/lt/LC_MESSAGES/tasksel.mo
 52633e5f6cd8e5efa8673de985574f9e8a981d24  usr/share/locale/lt/LC_MESSAGES/wget.mo
 9144f6177e4dd178e438c22b761c32655f73a385  usr/share/locale/lt/LC_MESSAGES/xdg-user-dirs.mo
@@ -14356,6 +14410,8 @@ e08b9652a872d831a31dbbbacda4e1186f9a3327  usr/share/locale/nl/LC_MESSAGES/psmisc
 b4bb68368431b019db321e7bc49e6d49972e6efa  usr/share/locale/nl/LC_MESSAGES/sed.mo
 5c9cf02067c8c0f8cb2b414e8c74f234f1958f7a  usr/share/locale/nl/LC_MESSAGES/shadow.mo
 8529431b8779985b589dfd3e432926fbb7f70731  usr/share/locale/nl/LC_MESSAGES/shared-mime-info.mo
+4cef3be05d3868ae1ecc6c657aac162dc8fd62af  usr/share/locale/nl/LC_MESSAGES/sudoers.mo
+1f4554b39f239a492d1876c324c82b80fdf7a98a  usr/share/locale/nl/LC_MESSAGES/sudo.mo
 846332eb4dabc47b1fcab30622993fe9c6d24182  usr/share/locale/nl/LC_MESSAGES/tar.mo
 87ada7533cce39ed03be23fc82517e81302aff73  usr/share/locale/nl/LC_MESSAGES/tasksel.mo
 a03bec7b4703b5460ecb86a0c2c2555b31a3ce6e  usr/share/locale/nl/LC_MESSAGES/wget.mo
@@ -14428,6 +14484,8 @@ d043e475be5b854edaf2d886b63465ce4ec75f05  usr/share/locale/pl/LC_MESSAGES/psmisc
 26733b3a8b7d261d4cde9200426d5ae30cedbe92  usr/share/locale/pl/LC_MESSAGES/sed.mo
 4cf256de87d23716b05ea81259c66e0bbc828085  usr/share/locale/pl/LC_MESSAGES/shadow.mo
 ab05b0f9a766dbc7e9bfc2ee0df16d253fe8eebb  usr/share/locale/pl/LC_MESSAGES/shared-mime-info.mo
+01d42582e1bb3b4908bf970fd5cc040672ea276f  usr/share/locale/pl/LC_MESSAGES/sudoers.mo
+664378ce8d229ab1a4b5049d9114a23e8d04cbf4  usr/share/locale/pl/LC_MESSAGES/sudo.mo
 3dfb12b3f5941340f95ceda1314c2a7c44f8a717  usr/share/locale/pl/LC_MESSAGES/systemd.mo
 e78aa3faf03f49535df4b9807914f957e61371f7  usr/share/locale/pl/LC_MESSAGES/tar.mo
 6be0c0c52b9bba6bc33932ab0bd58446fb093c8b  usr/share/locale/pl/LC_MESSAGES/tasksel.mo
@@ -14471,6 +14529,8 @@ b8f4e8e7db470306f39322a3264611943dc05181  usr/share/locale/pt_BR/LC_MESSAGES/nan
 7c907ca77fa4bc2534e7a858ce1da71047ab662f  usr/share/locale/pt_BR/LC_MESSAGES/sed.mo
 124885b51d6a32295ca92665bb65b0d1e93748e0  usr/share/locale/pt_BR/LC_MESSAGES/shadow.mo
 d0be57be321d215267a1e139773d05210f3e93b9  usr/share/locale/pt_BR/LC_MESSAGES/shared-mime-info.mo
+376964916b47c791d725fa8e28f7848995a5a889  usr/share/locale/pt_BR/LC_MESSAGES/sudoers.mo
+d012be1e047b0b24a185656db42cd04b4af171f9  usr/share/locale/pt_BR/LC_MESSAGES/sudo.mo
 cc258846f278434d866a235d77d2263bc8a30408  usr/share/locale/pt_BR/LC_MESSAGES/tar.mo
 faf0b40735f7b950b16f0c76f2c4e2f666a5a24f  usr/share/locale/pt_BR/LC_MESSAGES/tasksel.mo
 c642cbf288cd34b5e2b0b82494a5be3d474f2547  usr/share/locale/pt_BR/LC_MESSAGES/wget.mo
@@ -14580,6 +14640,7 @@ bae51abc9916e0811133767ad6b6511476ae7000  usr/share/locale/ru/LC_MESSAGES/psmisc
 c9061429883f8976b29cc23eb9b00308b260e314  usr/share/locale/ru/LC_MESSAGES/sed.mo
 1d8cd1e8f6a7982caf8f77126146489e33dd9acc  usr/share/locale/ru/LC_MESSAGES/shadow.mo
 71a54387b30217e384e0df4b2674f70c32a6ff84  usr/share/locale/ru/LC_MESSAGES/shared-mime-info.mo
+7a3a3920ac455d05d5343b6d2f32ad88f3982130  usr/share/locale/ru/LC_MESSAGES/sudo.mo
 111bdb0dd74495b185ee5511de68d76e27ecea67  usr/share/locale/ru/LC_MESSAGES/systemd.mo
 6c05edc6e4b880b4ab8456f32060b0449be8638d  usr/share/locale/ru/LC_MESSAGES/tar.mo
 8b7fd305ed39477e7910ea4fc1cedb260469b123  usr/share/locale/ru/LC_MESSAGES/tasksel.mo
@@ -14647,6 +14708,8 @@ e1f774feb64ec99a8055f711069c95dafd2ffd1a  usr/share/locale/sl/LC_MESSAGES/newt.m
 7d8234a038d2e93149f877d70d4e7196614a94f7  usr/share/locale/sl/LC_MESSAGES/popt.mo
 e3a262250f40648986f2a751c28ce526f5120159  usr/share/locale/sl/LC_MESSAGES/sed.mo
 d5a41bba93fef95d91341548a1e2e2e0f1a86a76  usr/share/locale/sl/LC_MESSAGES/shared-mime-info.mo
+2e05d972b0565fdb857219d0ef27f8e6a2f4fcc7  usr/share/locale/sl/LC_MESSAGES/sudoers.mo
+e01926acb3c40d8e4a2bb0365fbc07a00bf2b9a8  usr/share/locale/sl/LC_MESSAGES/sudo.mo
 91191ac79828adc38abdc8ff4eae4bf8f9191711  usr/share/locale/sl/LC_MESSAGES/tar.mo
 af1facc1d4da3765c2baa1db6c37c3207caeba2b  usr/share/locale/sl/LC_MESSAGES/tasksel.mo
 0ef20be1bdcc4c921e8c73c12f1abe749b24a497  usr/share/locale/sl/LC_MESSAGES/wget.mo
@@ -14683,6 +14746,8 @@ af9aa78ad93c928de8a5f0c684d9ab7ecd8cf16f  usr/share/locale/sr/LC_MESSAGES/man-db
 61a43e590bf8c1d65d33ec6ac0ffaf46a469b638  usr/share/locale/sr/LC_MESSAGES/psmisc.mo
 95e6e0a67141021e2b45076589b8594428547f1f  usr/share/locale/sr/LC_MESSAGES/sed.mo
 81a3fd6db8173c7db564225961861751b87d6453  usr/share/locale/sr/LC_MESSAGES/shared-mime-info.mo
+b77ac2db926e62284e4a8ee97af83d87b321e829  usr/share/locale/sr/LC_MESSAGES/sudoers.mo
+f9160dba74fa303ef3d08df76536f660ff46d300  usr/share/locale/sr/LC_MESSAGES/sudo.mo
 e245536a41c58f641f45047b1c56fd3efb50d018  usr/share/locale/sr/LC_MESSAGES/wget.mo
 93769962665df20bd7d273e57df7e31df1ffa6a5  usr/share/locale/sr/LC_MESSAGES/xdg-user-dirs.mo
 5fdb1d151d3d0c724f7c99bbeb83a301486cc73a  usr/share/locale/sv/LC_MESSAGES/acl.mo
@@ -14729,6 +14794,8 @@ fedd834aa676c259da31cf291be78f8aa74895c4  usr/share/locale/sv/LC_MESSAGES/psmisc
 1cc341d2d7148bf3c0da305c9c2b015013b803b6  usr/share/locale/sv/LC_MESSAGES/sed.mo
 47b62665a1826aebf82ae5c869b6872f8859e46d  usr/share/locale/sv/LC_MESSAGES/shadow.mo
 282b015d1be25b132fb36557f2a5febccb32afe6  usr/share/locale/sv/LC_MESSAGES/shared-mime-info.mo
+b0b8587cd014aa18f61dfc510863be02bb50ed94  usr/share/locale/sv/LC_MESSAGES/sudoers.mo
+ff26198a5a3fd431c2bd4c72e8470ad2ede5b193  usr/share/locale/sv/LC_MESSAGES/sudo.mo
 233a7770a91e9ba61efd550948054d9d7fbd47a8  usr/share/locale/sv/LC_MESSAGES/tar.mo
 f1491fb6d780c72174eff7b636a6272ed871bf75  usr/share/locale/sv/LC_MESSAGES/tasksel.mo
 93055f58948bbc9c59655855ad9604cce67b8f89  usr/share/locale/sv/LC_MESSAGES/wget.mo
@@ -14811,6 +14878,8 @@ aec2cbc44094b5e9a10e8f38f003d0eec1d0560f  usr/share/locale/tr/LC_MESSAGES/nano.m
 7f2115e10dc45915827712aecf27168709d4cec2  usr/share/locale/tr/LC_MESSAGES/sed.mo
 3ca2ef2220a6dbdb478e8a2392b8315855c57c3b  usr/share/locale/tr/LC_MESSAGES/shadow.mo
 b087555612892bc0599c10c4ffb1de1e2bc5bc2f  usr/share/locale/tr/LC_MESSAGES/shared-mime-info.mo
+d40389ba606fb2ef54678c335167f5ee8a1075b0  usr/share/locale/tr/LC_MESSAGES/sudoers.mo
+ab356169917ba60d4940bc2088e9160aa11f6b98  usr/share/locale/tr/LC_MESSAGES/sudo.mo
 37612ff170ea6e89b026e6cbfd64bf276af8a365  usr/share/locale/tr/LC_MESSAGES/tar.mo
 f2f1bf3c7e57868a8702e001d226eb7baa990bd3  usr/share/locale/tr/LC_MESSAGES/tasksel.mo
 cabb7ab923eeffb9b65577059ccf77a713d9e4f1  usr/share/locale/tr/LC_MESSAGES/wget.mo
@@ -14857,6 +14926,8 @@ d63f9683305a92dfcc09f5c4560140ea83ca6110  usr/share/locale/uk/LC_MESSAGES/psmisc
 350dc5544bede105ee26410cea897c56608a0e95  usr/share/locale/uk/LC_MESSAGES/sed.mo
 4c5269bfa51e74f499d4a395698f6b5964d90d43  usr/share/locale/uk/LC_MESSAGES/shadow.mo
 005e5dcb1668d89832412ffa6d9250f6653b2023  usr/share/locale/uk/LC_MESSAGES/shared-mime-info.mo
+7575db79c357d8415ab4cf75abfd33c220f0aec1  usr/share/locale/uk/LC_MESSAGES/sudoers.mo
+93027c640c1b77f867c40772232f15404a2daadb  usr/share/locale/uk/LC_MESSAGES/sudo.mo
 c0b0783336205137864678f11a6c4f90c8a5b1b6  usr/share/locale/uk/LC_MESSAGES/tar.mo
 e13a50b97d2ce3747d3c33571af6de66898c27ab  usr/share/locale/uk/LC_MESSAGES/tasksel.mo
 b0cda3b43a5e4ad71ccc65577e2a49922a510e67  usr/share/locale/uk/LC_MESSAGES/wget.mo
@@ -14904,6 +14975,8 @@ c9bfd5af655130d1e21769379bcfe1173b5fc04a  usr/share/locale/vi/LC_MESSAGES/popt.m
 583f838a350c485eabf6489159b355eaf82f710b  usr/share/locale/vi/LC_MESSAGES/sed.mo
 5498014901cf3a26a634525cb0075306f72cd8c8  usr/share/locale/vi/LC_MESSAGES/shadow.mo
 be8e01fa6365e705cd60c4f08bcb3518d1ca9f87  usr/share/locale/vi/LC_MESSAGES/shared-mime-info.mo
+196115bff892d3c29f2dc8320e2d186179fb9d35  usr/share/locale/vi/LC_MESSAGES/sudoers.mo
+4862a4aec39853f45ebde20196bce91652f7be31  usr/share/locale/vi/LC_MESSAGES/sudo.mo
 1539afec7389e7a6d498db28c81c1505937ddf1b  usr/share/locale/vi/LC_MESSAGES/tar.mo
 d8f5368bb86a93ea14e4e87f29294b0aa55f5972  usr/share/locale/vi/LC_MESSAGES/tasksel.mo
 2a85357dfea173c81f247f86fe57da2c72247312  usr/share/locale/vi/LC_MESSAGES/wget.mo
@@ -14958,6 +15031,8 @@ b4a2e60fcb83bb2f155f8b9d549b605d474883d3  usr/share/locale/zh_CN/LC_MESSAGES/psm
 63dd641cd75213a27dc4ddb8d489dd893013d7e6  usr/share/locale/zh_CN/LC_MESSAGES/sed.mo
 7c618bc135af617372c58fb29754d57c1da9554d  usr/share/locale/zh_CN/LC_MESSAGES/shadow.mo
 1110a4d27db5258b940013b448d54480d7b10924  usr/share/locale/zh_CN/LC_MESSAGES/shared-mime-info.mo
+4fe3325b68b0d36156cc2ecf3dc69b9f66cc944c  usr/share/locale/zh_CN/LC_MESSAGES/sudoers.mo
+f7423a77761f56a2ac1e06c76c0921d2c3740f04  usr/share/locale/zh_CN/LC_MESSAGES/sudo.mo
 e774444b15e26f38665662ca1b3d67e52c31ef22  usr/share/locale/zh_CN/LC_MESSAGES/tar.mo
 d104298db11046de8aa6febd4c93303bbcdebc65  usr/share/locale/zh_CN/LC_MESSAGES/tasksel.mo
 14304b11a461be48f5dfe334d565ef4254ec5217  usr/share/locale/zh_CN/LC_MESSAGES/wget.mo
@@ -17338,6 +17413,8 @@ bc2e1311bab674d623f396a97a91b2a6596ac322  usr/share/man/man5/services.5.gz
 e731267d542a89b05285e45b90237a5ca0bbe4d6  usr/share/man/man5/sshd_config.5.gz
 0dea79695186b1a545e6727d34b942deaf9fe883  usr/share/man/man5/subgid.5.gz
 0a376f3c10913f91e215235055b7e3eace2d57c9  usr/share/man/man5/subuid.5.gz
+051efd33b7fa162747c9bf6cf24905a5f91b37b9  usr/share/man/man5/sudo.conf.5.gz
+883d250b2eeda6feff4fe0aacda48b494262f9ce  usr/share/man/man5/sudoers.5.gz
 9b876399c96de2b9a11493f5a375d4db8b157dca  usr/share/man/man5/sysctl.conf.5.gz
 bd3018c4f06b24014c58f4cd732129f570b986ac  usr/share/man/man5/sysctl.d.5.gz
 92be99b22e70831db8dc1113be990a83f2b2f57b  usr/share/man/man5/systemd.automount.5.gz
@@ -17770,6 +17847,9 @@ e2e45eab7e1942bf1c4eaa0ba1139a5b8919ba80  usr/share/man/man8/sshd.8.gz
 cbd083210bf1b8442fa71910a48cd43bbfdbbb1e  usr/share/man/man8/startpar.8.gz
 7869eaf1be62ebb152342f0fc6ccaa7dc7db533f  usr/share/man/man8/startpar-upstart-inject.8.gz
 f8c75680f517add0f146e9460e6f134e6a95c521  usr/share/man/man8/start-stop-daemon.8.gz
+4c2631707c9ea2d9c650acda927bd80f8ba02018  usr/share/man/man8/sudo.8.gz
+8b61094d9f5d434a822375ac6a46e882bba3ef37  usr/share/man/man8/sudo_plugin.8.gz
+97d7b39ef2443d102fe996686dcc67167172e589  usr/share/man/man8/sudoreplay.8.gz
 37571352d6c27153d3939eb4829d19f6c5c2fb00  usr/share/man/man8/sulogin.8.gz
 d7c70cb83477a429c13ab02f6d28e071c4be5db7  usr/share/man/man8/swaplabel.8.gz
 53782e45aea782682d6fb239ef208a512772c187  usr/share/man/man8/swapon.8.gz
@@ -17866,6 +17946,7 @@ acff123174ebe6b4e75a8314f70ccd65e9caf31a  usr/share/man/man8/usermod.8.gz
 9cf029240495d00f23e026948f5b52bdecd8ddbd  usr/share/man/man8/validlocale.8.gz
 4df34d59dfeb44f70569075cf7829708e09c8aaa  usr/share/man/man8/vigr.8.gz
 d14889353b528f93620ba3c282c895ae8160269a  usr/share/man/man8/vipw.8.gz
+d6dcfe4582fcdd28865f053c14d4a6581548d43e  usr/share/man/man8/visudo.8.gz
 bf37146b3f172b93e099d54cf20be17330f98153  usr/share/man/man8/vmstat.8.gz
 d75d19777a860d88999193b63b0a1bd6bc13fadd  usr/share/man/man8/vpddecode.8.gz
 427fbb9b6287fbc13a506fee276aa532c3e62001  usr/share/man/man8/wdctl.8.gz
@@ -24471,7 +24552,8 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  var/cache/apt/archives/lock
 fd231d8b85c806a299882c47ed018cbd0f68d6db  var/cache/apt/archives/python-dbus-dev_1.2.0-2_all.deb
 2bae8d59694378e1c81b48d02ee7e04cc27047e8  var/cache/apt/archives/python-gi_3.14.0-1_i386.deb
 62c84797c6b59203e87a2bc10208646d355f253e  var/cache/apt/archives/screen_4.2.1-3+deb8u1_i386.deb
-2dc57a76715c75228dc6c0b1bdc681f2b75fa135  var/cache/apt/pkgcache.bin
+9fda6d67afd21582dbd5d20911b1616f4d8c2281  var/cache/apt/archives/sudo_1.8.10p3-1+deb8u3_i386.deb
+cf768b744379b6c82695dafad2baa4168c683bff  var/cache/apt/pkgcache.bin
 749fb02c30fb95b8849815ddb49a400d70685bc1  var/cache/apt/srcpkgcache.bin
 75fa50144ee6d0bd317fbb92623bf680bceb6a4b  var/cache/debconf/config.dat
 75fa50144ee6d0bd317fbb92623bf680bceb6a4b  var/cache/debconf/config.dat-old
@@ -24502,7 +24584,7 @@ f5f3d6a2a477953370bb073d848b32e71565288d  var/cache/man/hu/CACHEDIR.TAG
 4c32604f753b9ad731554d61eafb7657eb4f2924  var/cache/man/hu/index.db
 f5f3d6a2a477953370bb073d848b32e71565288d  var/cache/man/id/CACHEDIR.TAG
 eb138cb754718257f4f82324aba07f53835b6c27  var/cache/man/id/index.db
-eca28591d6d29a0130ceea1724c12ae1009e6e88  var/cache/man/index.db
+b610bf5ec1478d4a4137c0fd013f73eca2ff8600  var/cache/man/index.db
 f5f3d6a2a477953370bb073d848b32e71565288d  var/cache/man/it/CACHEDIR.TAG
 e368499c62c544fef9943342f0c12373101a2052  var/cache/man/it/index.db
 f5f3d6a2a477953370bb073d848b32e71565288d  var/cache/man/ja/CACHEDIR.TAG
@@ -26227,6 +26309,13 @@ e1ef6c24eadda53c08441a6d3bb395031f8d7c39  var/lib/dpkg/info/shared-mime-info.tri
 adb193425f755543f78e47e0894ae0bfff421fd5  var/lib/dpkg/info/startpar.conffiles
 30ff6ff6637de31ecfffcc9898b0ab252dc8428b  var/lib/dpkg/info/startpar.list
 a9c846328230d6272442aaf7070041fefe71875a  var/lib/dpkg/info/startpar.md5sums
+e5615e43350daf30cfc0194b956eaac16022d19f  var/lib/dpkg/info/sudo.conffiles
+9e42e9890700436a26c1ae5c1d55635838c270cd  var/lib/dpkg/info/sudo.list
+ccce2d8929542b2a9dd58d58a4d86827d29e6ea8  var/lib/dpkg/info/sudo.md5sums
+e09a74ec0a55d8e89a9825cccfc3c142264b7230  var/lib/dpkg/info/sudo.postinst
+fca96e114b7a0f0ed5984e76fcdf5ae115144ce4  var/lib/dpkg/info/sudo.postrm
+97432b2c71525fd1639cd494e3a329f211c39ad0  var/lib/dpkg/info/sudo.preinst
+9c182f520f724638b9cf6f1cff3b2615c80ef0ea  var/lib/dpkg/info/sudo.prerm
 c1657d39b76d360f20c5794152f44d121de495a6  var/lib/dpkg/info/systemd.conffiles
 25ac5f0745f02764e75d261c7be9a135c32160d8  var/lib/dpkg/info/systemd.list
 fe0a84cd12751da3cede0ce9a80bf2e670756804  var/lib/dpkg/info/systemd.md5sums
@@ -26365,8 +26454,8 @@ be09e8efc4b92addc6f3c690b440b8af19aa49f2  var/lib/dpkg/info/zlib1g:i386.shlibs
 da39a3ee5e6b4b0d3255bfef95601890afd80709  var/lib/dpkg/lock
 5e170f5f6c91bc1288d7d09df0b35581861d4f85  var/lib/dpkg/statoverride
 2c09187500eb3014685d671424720e9de62decdb  var/lib/dpkg/statoverride-old
-13954857d1fbe35cfb3c272cf52fdefd59593dc8  var/lib/dpkg/status
-13954857d1fbe35cfb3c272cf52fdefd59593dc8  var/lib/dpkg/status-old
+cc64fa32e0fc7a9c13b0719de3426a5bb54d80cb  var/lib/dpkg/status
+cc64fa32e0fc7a9c13b0719de3426a5bb54d80cb  var/lib/dpkg/status-old
 879ca27d1ec3bb96b60b76081d0b64bec62be442  var/lib/dpkg/triggers/File
 0100d06fdd8f342168d5d267e98e138bc166310c  var/lib/dpkg/triggers/ldconfig
 da39a3ee5e6b4b0d3255bfef95601890afd80709  var/lib/dpkg/triggers/Lock
@@ -26404,15 +26493,15 @@ f6ef2b49d3a3273aa9bf5e76aeb08cfbfc33f6a0  var/lib/usbutils/usb.ids
 20df1a6a78733fe7018a4e31a07cd6a1ce19b09c  var/lib/xml-core/catalog
 6c2ead67dd3eaf9f2b963dc18f178ef0f1913976  var/lib/xml-core/xml-core
 5fe0bb7afb00f635b8db3dddd491cfb49701f130  var/log/alternatives.log
-60739f555f2d860f77d2286020d2cef63fc446c8  var/log/apt/history.log
-059f4cdc2f6568e23fb897f4110bf2f1ac1b33a6  var/log/apt/term.log
+4f652c1673392fd78b32d91f10203abf4c8916d1  var/log/apt/history.log
+2677915d102d2a5c935769b9f677a31c51396837  var/log/apt/term.log
 35873148e7437634eba3280d544899a87b69c8f7  var/log/auth.log
 ce469758a68484f5d5e548dd31be19ea83eb54ba  var/log/bootstrap.log
 da39a3ee5e6b4b0d3255bfef95601890afd80709  var/log/btmp
 861beb407088b6b954788dffe85d1cba0bd19ce5  var/log/daemon.log
 da39a3ee5e6b4b0d3255bfef95601890afd80709  var/log/debug
 cd4bd4d79fef79e62b6b75b9cea870b3d3385cd1  var/log/dmesg
-46d7c220f3bf89dff5eaa3be61b5572769255dc4  var/log/dpkg.log
+3a56e457b3467d12739a57ddda37be0d90832058  var/log/dpkg.log
 9657efc1e87d16064895f268a3fd3edb68126451  var/log/faillog
 cd4bd4d79fef79e62b6b75b9cea870b3d3385cd1  var/log/fsck/checkfs
 cd4bd4d79fef79e62b6b75b9cea870b3d3385cd1  var/log/fsck/checkroot
