@@ -2,7 +2,7 @@
 
 ## v0.1.1
 
-* Add `jublilinux` to `/etc/hosts` as `127.0.0.1` so tools like `sudo` stop complaining.
+* Add `jubilinux` to `/etc/hosts` as `127.0.0.1` so tools like `sudo` stop complaining.
 * New kernel with patched kernel/ptrace.c to not spam dmesg/syslog/etc when the `fuser` command is run.
 
 # v0.1.0
