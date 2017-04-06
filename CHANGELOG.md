@@ -6,6 +6,7 @@
 * Added /root/kernel.config for transparency about the kernel as built.
 * Install `sudo` via apt-get
 * Remove galileod service and /opt/edison arduino launcher stuff
+* Added `bash-completion` package
 
 ## v0.1.1
 
