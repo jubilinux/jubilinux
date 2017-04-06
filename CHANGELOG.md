@@ -5,6 +5,7 @@
 * Added a ton of kernel modules, basically anything that was removable via USB or i2c.
 * Added /root/kernel.config for transparency about the kernel as built.
 * Install `sudo` via apt-get
+* Remove galileod service and /opt/edison arduino launcher stuff
 
 ## v0.1.1
 

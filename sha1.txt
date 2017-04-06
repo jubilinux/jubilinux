@@ -219,7 +219,6 @@ cf48f5254af1e3d4392dcad19af99078edd64891  etc/init.d/checkroot.sh
 1bac0d284653acd2c1127da7d62a722ed18d2436  etc/init.d/.depend.boot
 37e53dc56f36347ac7cce980868438adcf4c442d  etc/init.d/.depend.start
 3b0e5e14577b46f746b394d7137e618488947704  etc/init.d/.depend.stop
-61fde6ef27ca790eb9589aab022239333483a5ff  etc/init.d/galileod.sh
 6471adda6339754d6e46baf380c86be96094286e  etc/init.d/halt
 af94864e5abda0bf05d91c754323b49886818d5f  etc/init.d/hostapd
 b61a6799995ba70354e2482deb8406478db46e30  etc/init.d/hostapd.dpkg-dist
@@ -1344,11 +1343,6 @@ c3ec4415c0a5c1adf75f0911589cacdfd83ab565  lib/xtables/libxt_TPROXY.so
 b0735a5e887cc98f35251afefecffc181e1a803d  lib/xtables/libxt_TRACE.so
 5f865af125aae1e3460bd8a2ed852bd7ca8d480f  lib/xtables/libxt_u32.so
 3536c8a67f559f7a328410185ab6f43a87fe51e6  lib/xtables/libxt_udp.so
-3efff5ed4e2c13f99cd8a5d13f667620da7a78a1  opt/edison/clloader
-51ca7a9a6513c16f976cb0f3ff47aa2c85441638  opt/edison/launcher.sh
-418afa044efd66caa52b02cd13cb68be45420443  opt/edison/sketch_reset
-2c0a4292f3dbf702dc88101a8557a40ea6146f4a  opt/edison/sketch_reset.sh
-0a0dd60c74471d551bba27dc7ffa412dd9426cd8  root/.bash_history
 b737c392222ddac2271cc8d0d8cc0308d08cf458  root/.bashrc
 f05a29a9a7de6f1dca113ab038e4c8b16328aaef  root/kernel.config
 af363593dbf4a22d03e6872985895e9589e0da2d  root/.profile
