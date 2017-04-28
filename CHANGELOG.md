@@ -11,6 +11,8 @@
 * Install bluez via `apt-get install bluez`
 * Install `libnss-myhostname` so that systemd-hostnamed works
 * Enable all kernel namespace support
+* Remove systemd-hostnamed service to avoid unnecessary errors
+* Remove bluetoothd service, since it is started by rc.local
 
 ## v0.1.1
 
