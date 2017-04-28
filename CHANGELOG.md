@@ -10,6 +10,7 @@
 * Enable swap in kernel
 * Install bluez via `apt-get install bluez`
 * Install `libnss-myhostname` so that systemd-hostnamed works
+* Enable all kernel namespace support
 
 ## v0.1.1
 
