@@ -8,6 +8,7 @@
 * Remove galileod service and /opt/edison arduino launcher stuff
 * Added `bash-completion` package
 * Enable swap in kernel
+* Install bluez via `apt-get install bluez`
 * Install `libnss-myhostname` so that systemd-hostnamed works
 
 ## v0.1.1
