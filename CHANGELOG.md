@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3.0
+
+* `dist-upgrade` to debian stretch
+* updates to first-boot scripts for compatibility with new systemd
+* changes to bluetooth init to use debian's bluez
+
 ## v0.2.0
 
 * Added a ton of kernel modules, basically anything that was removable via USB or i2c.
